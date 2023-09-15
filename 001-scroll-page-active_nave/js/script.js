@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
     sections.forEach(section => {
         let sectionTop = section.offsetTop;
 
-        console.log(sectionTop);
+        // console.log(sectionTop);
         if (scrollY >= sectionTop - 65) {
             current = section.getAttribute('id');
         }
